@@ -1,0 +1,8 @@
+altscreen on
+
+hardstatus alwayslastline "%{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%=%{mk}@ %H %{ck}%Y%{wk}-%{ck}%m%{wk}-%{ck}%d %{yk}%D %{gk}%c"
+
+# Change to left/right window in relation to current window (wraps on edges)
+# ALT-,.
+bindkey "^[." next
+bindkey "^[," prev
